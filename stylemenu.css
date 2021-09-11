@@ -1,0 +1,127 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+  }
+  
+  body {
+	background-image: url(Group\ 22.png);
+	-webkit-background-size: cover;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+    
+	height:40px;
+	width: 100%;
+	font-family: poppins;
+	font-weight: 600;
+	font-size: 16px;
+  padding-bottom: 550px;
+	
+  }
+  
+  a {
+	text-decoration: none;
+  }
+  header {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 50px;
+	
+  }
+  
+  .nav-area {
+	list-style: none;
+	margin-right: 70px;
+	margin-top: 0px;
+  }
+  
+  .nav-area li {
+	display: inline-flex;
+	padding: 0 15px;
+	text-transform: uppercase;
+  }
+  
+  .nav-area a {
+	transition: 0.3s;
+	color: #fff;
+  }
+  
+  .nav-area a:hover {
+	color: #d22938;
+  }
+  
+  .btn-area {
+	cursor: pointer;
+	color: #fff;
+	font-size: 16px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	border-radius: 5px;
+	background: #d22938;
+  }
+
+  h1{
+      font-family:  'Sacramento', cursive;
+      color: #FFEECA;
+      text-align: center;
+      font-size: 60px;
+      margin-top: 10%;
+  }
+
+  h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 60px;
+  }
+
+  .menu{
+    display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	font-family: 'Montserrat', sans-serif ;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 25%;
+    list-style-type: none;
+  }
+
+  .menu li{
+    border-style: solid;
+    padding: 10px 20px;
+    transition-duration: 30ms;
+  }
+
+  .starter, .desserts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content1{
+    position: relative;
+	padding-left: 50px;
+  }
+
+  .main-dish, .beverage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+  }
+
+  .content2{
+    position: relative;
+	padding-right: 50px;
+  }
+
+
+ 
